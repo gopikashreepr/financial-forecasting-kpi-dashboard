@@ -51,57 +51,6 @@ This project aims to provide a data-driven forecasting framework to improve fina
 - Matplotlib
 - Power BI
 - Joblib
-
----
-
-# 📂 Project Workflow
-
-```
-Historical Data
-
-        │
-
-        ▼
-
-Data Cleaning
-
-        │
-
-        ▼
-
-Time Series Preparation
-
-        │
-
-        ▼
-
-ARIMA Model
-        │
-        ├──────────┐
-        │          │
-        ▼          ▼
-
-Prophet Model
-
-        │
-
-        ▼
-
-Forecast Generation
-
-        │
-
-        ▼
-
-Accuracy Comparison
-
-        │
-
-        ▼
-
-Power BI Dashboard
-```
-
 ---
 
 # 📊 Dashboard Highlights
@@ -149,30 +98,20 @@ Power BI Dashboard
 
 ---
 
-# 📁 Repository Structure
-
+## 📂 Project Structure
 ```
-Forecast-Accuracy-Analysis/
-
-│── forecasting.py
-
-│── forecast_raw.csv
-
-│── forecast_prophet_combined.csv
-
-│── forecast_arima_combined.csv
-
-│── forecast_prophet_plot.png
-
-│── forecast_arima_plot.png
-
-│── models/
-
-│── dashboard/
-
-│── README.md
+Financial Forecasting & KPI Tracker/
+│
+├── forecasting.py              # Main forecasting script
+├── outputs/
+│   ├── ARIMA/
+│   ├── Prophet/
+│   └── plots/
+├── forecast_raw.csv            # Raw forecast output
+├── forecast_prophet_combined.csv
+├── forecast_arima_combined.csv
+└── README.md
 ```
-
 ---
 
 # ▶️ Installation
